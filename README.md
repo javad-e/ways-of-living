@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ```
 
 ## File Descriptions
-**run.py -** a script to initiate neural network training
-**model_utils.py -** utils function to support neural network training
-**run_gradcam.py -** run gradcam analysis on the dataset
-**process_results.py -** run trained model on the results and convert them to latent space
+**run.py -** a script to initiate neural network training\n
+**model_utils.py -** utils function to support neural network training\n
+**run_gradcam.py -** run gradcam analysis on the dataset\n
+**process_results.py -** run trained model on the results and convert them to latent space\n
