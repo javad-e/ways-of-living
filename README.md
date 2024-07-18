@@ -1,5 +1,5 @@
 # A Geography of Indoors for Analyzing Global Ways of Living Using Computer Vision
-### _Martina Mazzarello, Mikita Klimenka, Rohit Sanatani, Javad Eshtiyagh, Yanhua Yao, Paolo Santi, Fabio Duarte1, Richard Florida, Carlo Ratti_
+***Martina Mazzarello, Mikita Klimenka, Rohit Sanatani, Javad Eshtiyagh, Yanhua Yao, Paolo Santi, Fabio Duarte1, Richard Florida, Carlo Ratti***
 
 _This paper is currently under review for publication in Nature Cities._
 
