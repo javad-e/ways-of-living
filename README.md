@@ -12,10 +12,25 @@ The code is written in Python 3.9.7. Please use `requirements.txt` file to insta
 ```
 pip install -r requirements.txt
 ```
+Typical install time: 15 mins
 
 ## File Descriptions
-**run.py -** a script to initiate neural network training <br />
-**model_utils.py -** utils function to support neural network training <br />
-**run_gradcam.py -** run gradcam analysis on the dataset <br />
-**process_results.py -** run trained model on the results and convert them to latent space <br />
-**flight_analysis.ipynb -** analyzes flight data and correlation with image similarity <br />
+**run.py -** a script to initiate neural network training. Average run time:  <br />
+**model_utils.py -** utils function to support neural network training. <br />
+**run_gradcam.py -** run gradcam analysis on the dataset. Average run time:  <br />
+**process_results.py -** run trained model on the results and convert them to latent space. Average run time:  <br />
+**flight_analysis.ipynb -** analyzes geographic and flight data and correlation with image similarity. Average run time: ~2 minute per room type <br />
+**test_metrics_external_dataset.ipynb -** analyzes the representativeness of Airbnb data with regards to other datasets. Average run time: ~2 minute per room type <br />
+
+## General Instructions and Workflow
+
+The general workflow for our analysis is as follows:
+
+- Train neural network on Airbnb data using city names as target labels (run.py). 
+- Process the outputs of the model on test data and generate a latent space representation (process_results.py)
+- Analyze correlations between geographic distance and latent space distance across all city pairs.
+- Analyze correlations between flight traffic and visual similarity (flight_analysis.ipynb). 
+- Analyze correlations between geographic distance and KOF globalization index across all city pairs. 
+- Visualise model activations and identify semantic parts of images that are important visual identifiers of cities. 
+- Analyze the representativeness of Airbnb data with regards to other datasets such as Craigslist, Zigbang and Ohou. Compute key metrics. (test_metrics_external_dataset.ipynb).
+  
